@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="stepdefs.TestRunner" time="18.849" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="stepdefs.TestRunner" time="78.362" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.15+8-LTS-149"/>
@@ -41,11 +41,12 @@
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.specification.version" value="11"/>
+    <property name="cucumber.filter.tags" value="@Simplilearn"/>
     <property name="user.name" value="dell"/>
     <property name="java.class.path" value="C:\apache-maven-3.8.5\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Dcucumber.filter.tags=@Simplilearn"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.15"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -65,5 +66,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="This feature will validate the login scenarios for simplilearn.com" name="Validate the Login failure scenario using parameters" time="18.849"/>
+  <testcase classname="This feature will validate the login scenarios for simplilearn.com" name="Validate the Login failure scenario" time="17.633"/>
+  <testcase classname="This feature will validate the login scenarios for simplilearn.com" name="Validate the Login failure scenario using parameters" time="16.675"/>
+  <testcase classname="This feature will validate the login scenarios for simplilearn.com" name="Validate the Login failure scenario using scenario outline" time="16.112"/>
+  <testcase classname="This feature will validate the login scenarios for simplilearn.com" name="Validate the Login failure scenario using scenario outline" time="16.244"/>
+  <testcase classname="This feature will validate the login scenarios for simplilearn.com" name="Validate the different login options present on the login screen" time="11.698"/>
 </testsuite>

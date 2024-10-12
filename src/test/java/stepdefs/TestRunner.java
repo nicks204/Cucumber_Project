@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		
 		monochrome= true,
-		plugin={"pretty","html:target/html-cucumber"},
+		plugin={"pretty","html:target/html-cucumber","json:target/cucumber.json"},
 		features = "src/test/java/features", 
 		glue = "stepdefs",
 		tags = {"@Regression"} //- to run single tag
